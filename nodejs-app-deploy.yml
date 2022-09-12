@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "devopscloudworld.jfrog.io/artifactory/demo-ethans/myapp:latest"
+        image: "devopscloudworld.jfrog.io/demo-ethans/myapp:latest"
         ports:
           - containerPort: 5000
 ---
